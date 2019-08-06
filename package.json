@@ -22,7 +22,8 @@
     "url": "git+https://github.com/github/babel-preset-github.git"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
   },
   "author": "GitHub Inc",
   "license": "MIT"
